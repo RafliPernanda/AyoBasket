@@ -29,7 +29,7 @@ Platform ini memiliki dua bagian utama, yaitu untuk pengguna umum dan administra
 
 1.  **Clone Repositori:**
     ```bash
-    git clone <URL_REPOSITORI_ANDA>
+    git clone https://github.com/RafliPernanda/AyoBasket.git
     ```
 2.  **Database:**
     - Buat database baru di phpMyAdmin atau _client_ database Anda.
