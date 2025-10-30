@@ -42,16 +42,14 @@ $page_title = 'Tambah Reservasi';
 require_once '../_partials/header_admin.php';
 ?>
 
-<div class="card" style="margin-top: 2rem;">
-    <div class="card-header">
-        <h2>Tambah Reservasi Baru</h2>
-    </div>
+<div class="form-section">
+    <h2>Tambah Reservasi Baru</h2>
 
     <?php if ($error): ?>
-        <div class="message error" style="margin: 1.5rem;"><?= htmlspecialchars($error) ?></div>
+        <div class="message error"><?= htmlspecialchars($error) ?></div>
     <?php endif; ?>
 
-    <form action="tambah.php" method="POST" style="padding: 1.5rem;">
+    <form action="tambah.php" method="POST">
         <div class="form-group">
             <label for="id_lapangan">Lapangan</label>
             <select id="id_lapangan" name="id_lapangan" required>
