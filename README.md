@@ -101,6 +101,6 @@ try {
 
 ## Screenshot Aplikasi
 
-**Tampilan Dashboard Admin**
+**Tampilan Landing Page AyoBasket**
 
 ![Tampilan Landing Page AyoBasket](tampilan%20AyoBasket.png)
